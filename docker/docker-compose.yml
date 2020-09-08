@@ -1,0 +1,9 @@
+version: '2'
+services:
+  airflow:
+    image: puckel/docker-airflow
+    command: webserver
+    ports:
+      - '8080:8080'
+    volumes:
+      - /tmp/initial_dag.py:/usr/local/airflow/dags
