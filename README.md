@@ -2,7 +2,7 @@
 
 ## AWS
 Este projeto foi construído com o provider AWS e um usuário configurado como "default" <br />
-Certifique-se que tem um usuário configurado dentro de `~/.aws/credentials` e de que o terraform CLI está instalado em seu computador.
+Certifique-se de ter um usuário configurado dentro de `~/.aws/credentials` e de que o terraform CLI está instalado em seu computador.
 
 ## Execução
 Para rodar o projeto, no terminal da sua máquina, comece instalando os plugins necessários para o Terraform: <br />
